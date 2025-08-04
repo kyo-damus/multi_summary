@@ -1,0 +1,13 @@
+summary_model:
+  # ベースにするLLMのモデル名 (Hugging Face)
+  base_llm_model: "lmsys/vicuna-7b-v1.5"
+  # Vision Encoder (CLIP)のモデル名
+  vision_encoder: "openai/clip-vit-large-patch14-336"
+
+data:
+  # 4つのデータが置かれているパス
+  data_path: "./data/unlabeled/"
+
+training:
+  learning_rate: 0.0001
+  batch_size: 1
