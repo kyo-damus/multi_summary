@@ -1,11 +1,11 @@
 summary_model:
-  # ƒx[ƒX‚É‚·‚éLLM‚Ìƒ‚ƒfƒ‹–¼ (Hugging Face)
+  # ãƒ™ãƒ¼ã‚¹ã«ã™ã‚‹LLMã®ãƒ¢ãƒ‡ãƒ«å (Hugging Face)
   base_llm_model: "lmsys/vicuna-7b-v1.5"
-  # Vision Encoder (CLIP)‚Ìƒ‚ƒfƒ‹–¼
+  # Vision Encoder (CLIP)ã®ãƒ¢ãƒ‡ãƒ«å
   vision_encoder: "openai/clip-vit-large-patch14-336"
 
 data:
-  # 4‚Â‚Ìƒf[ƒ^‚ª’u‚©‚ê‚Ä‚¢‚éƒpƒX
+  # 4ã¤ã®ãƒ‡ãƒ¼ã‚¿ãŒç½®ã‹ã‚Œã¦ã„ã‚‹ãƒ‘ã‚¹
   data_path: "./data/unlabeled/"
 
 training:
